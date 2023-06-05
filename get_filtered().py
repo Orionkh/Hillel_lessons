@@ -1,0 +1,10 @@
+def get_filtered(a):
+    i = 0
+    while i < len(a):
+        if a[i] < 5:
+            print(a[i])
+        i += 1
+
+
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+get_filtered(a)
